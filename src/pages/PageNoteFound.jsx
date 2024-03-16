@@ -1,7 +1,11 @@
+import PageNave from "../components/PageNav"
 
 function PageNoteFound() {
     return (
-        <div>Page Note Found</div>
+        <div>
+            <PageNave/>
+            <h1>Page Note Found</h1>
+        </div>
     )
 }
 
